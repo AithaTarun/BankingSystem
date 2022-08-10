@@ -1,0 +1,4 @@
+Bank.bak : D:\Programming\Microsoft SQL Server 2017\root\MSSQL14.MSSQLSERVER\MSSQL\Backup
+Bank.mdf and Bank_log.ldf : D:\Programming\Microsoft SQL Server 2017\root\MSSQL14.MSSQLSERVER\MSSQL\DATA
+
+Refer "ConnectionClass" for more details.

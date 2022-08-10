@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Create_Account_Controller">
+   <children>
+      <ImageView fitHeight="735.0" fitWidth="1302.0" layoutX="-40.0" layoutY="-7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Create.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txt_Create_Account_ID" layoutX="466.0" layoutY="65.0" promptText="Account ID">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <PasswordField fx:id="txt_Create_Account_Pass" layoutX="466.0" layoutY="145.0" promptText="Password" />
+      <TextField fx:id="txt_Create_Account_Fname" layoutX="466.0" layoutY="225.0" promptText="First name">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="txt_Create_Account_Lname" layoutX="466.0" layoutY="305.0" promptText="Last name">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="txt_Create_Account_Phone" layoutX="466.0" layoutY="385.0" promptText="Phone number">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+       <DatePicker fx:id="txt_Create_Account_Dob" layoutX="466.0" layoutY="465.0" promptText="Date of birth" />
+      <TextField fx:id="txt_Create_Account_Email" layoutX="466.0" layoutY="545.0" promptText="Email ID">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <TextField fx:id="txt_Create_Account_Address" layoutX="466.0" layoutY="625.0" promptText="Address">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></TextField>
+      <Button fx:id="btn_Create_Account_Proceed" layoutX="425.0" layoutY="671.0" mnemonicParsing="false" onAction="#Create_Account_Proceed" text="Proceed">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font></Button>
+      <Button fx:id="btn_Create_Account_Back" layoutX="597.0" layoutY="671.0" mnemonicParsing="false" onAction="#Create_Account_Back" text="Back">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="lable_Create_Account_ID" layoutX="640.0" layoutY="50.0" prefHeight="25.0" prefWidth="207.0" textFill="RED">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_Create_Account_Phone" layoutX="640.0" layoutY="374.0" textFill="RED">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lable_Create_Account_Email" layoutX="640.0" layoutY="534.0" textFill="RED">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="lable_Create_Account_Sucess" layoutX="297.0" layoutY="14.0" prefHeight="25.0" prefWidth="498.0" textAlignment="CENTER" textFill="#00ff51">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

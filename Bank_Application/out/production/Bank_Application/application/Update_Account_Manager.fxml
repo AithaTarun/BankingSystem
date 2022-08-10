@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Update_Account_Manger_Controller">
+   <children>
+      <PasswordField fx:id="txt_Update_Manager_Pass" layoutX="430.0" layoutY="70.0" promptText="Password">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="txt_Update_Manager_Fname" layoutX="430.0" layoutY="160.0" promptText="First name">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font></TextField>
+      <TextField fx:id="txt_Update_Manager_Lname" layoutX="430.0" layoutY="250.0" promptText="Last name">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_Update_Manager_Phone" layoutX="430.0" layoutY="340.0" promptText="Phone number">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txt_Update_Manager_Email" layoutX="430.0" layoutY="430.0" promptText="Email ID">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font>
+      </TextField>
+      <Button fx:id="Update_Manager_Proceed" layoutX="430.0" layoutY="550.0" mnemonicParsing="false" onAction="#Update_Manager_Proceed" text="Proceed">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_Update_Manager_Back" layoutX="592.0" layoutY="550.0" mnemonicParsing="false" onAction="#Update_Manager_Back" text="Back">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="label_Update_Manger_Success" layoutX="431.0" layoutY="613.0" textFill="#00f2ff">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_Update_Manager_Phone_Warning" layoutX="695.0" layoutY="346.0" textFill="RED">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_Update_Manager_Mail_Warning" layoutX="681.0" layoutY="436.0" textFill="RED">
+         <font>
+            <Font name="Comic Sans MS Bold Italic" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
